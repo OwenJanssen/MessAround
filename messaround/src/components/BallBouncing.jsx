@@ -25,7 +25,7 @@ const BallBouncing = ({setStage}) => {
     const size_outer = Math.min(0.5, scrollFraction) * 200;
     const size_inner = size_outer * 0.75;
     const MAX_FONT_SIZE = 60;
-    return <div className="animation-body">
+    return <div className="animation-body" style={{height: `250vh`}}>
         {/* todo: add noise to background like https://yuto-takahashi.com/*/}
         <div className="animation-canvas">
             <div className="ball" style={{backgroundColor: `var(--color-3)`, height: `${size_outer*3.5}px`, width: `${size_outer*2}px`, borderRadius: `${size_outer}px`}}/>
