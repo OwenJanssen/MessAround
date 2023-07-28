@@ -1,0 +1,61 @@
+:root {
+    --color-1: #F8F9FA;
+    --color-2: #E9ECEF;
+    --color-3: #DEE2E6;
+    --color-4: #CED4DA;
+    --color-5: #ADB5BD;
+    --color-6: #6C757D;
+    --color-7: #495057;
+    --color-8: #343A40;
+    --color-9: #212529;
+}
+
+.App {
+    text-align: center;
+    height: 100vh;
+}
+
+.animation-body {
+    height: 300vh;
+    background: var(--color-9);
+}
+
+.animation-canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.opening-door {
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+    background: var(--color-9);
+}
+
+.name-text {
+    color: var(--color-3);
+    font-family: Schnyder L Web;
+    font-size: 12.5vh;
+    z-index: 5;
+    width: 100%;
+}
+
+.ball {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.letters {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-3);
+}
